@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07d01526394c0d84faca4b483a9eec2e, type: 3}
+  m_Name: Data
+  m_EditorClassIdentifier: 
+  _Width: 16
+  _Height: 255
+  VoxelScale: 0.5
+  RenderDistance: 32
+  jobs: 1
+  Seed: Soul
+  NoiseData:
+    _seed: 204392961
+    BaseHeight: 56
+    ScaleHeight: 12
+    Octaves: 5
+    Scale: 43.5
+    Persistance: 0.5
+    Lacunarity: 2
+    AtlasTextureInBlocks: 2
+    NormlizedBlockTexture: 0.5
+  _materials:
+  - {fileID: 2100000, guid: e3aaaf74216507140a5ad2c03e72a0fd, type: 2}
